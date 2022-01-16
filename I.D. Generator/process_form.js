@@ -194,7 +194,7 @@ window.onload = function ScriptOnLoad() {
             var cat = document.getElementById("animalTypeCat");
         
             //Defualt state for information section (OVERRIDE: set to true)
-            var formComplete = true;
+            var formComplete = false;
             
             //Checks if validation states attached to each input of the information section have been filled in and validated.
             if (fNameState == "true" && lNameState == "true" && pNumberState == "true" && eMailState == "true" && wSiteState == "true") {
