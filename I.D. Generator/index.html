@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I.D. Generator: Form Validation</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="button.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logoContainer">
+                <div class="logo">
+                    <p class="logoText2">I.D.</p>
+                    <p class="logoText">Generator</p>
+                </div>
+            </div>
+        </header>
+        <div class="headerSpacer"></div>
+        <div>
+            <div id="information" class="card">
+                <div >
+                    <h1>Sign in to I.D. Generator</h1>
+                    <form action="login.php" method="POST">
+                        <p>
+                            <label for="userName">Username:</label>
+                            <input type="text" id="userName" name="userName" />
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="text" id="password" name="password" />
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="displayResults">
+            <div name="submit" id="submit">
+                <button id="buttonSubmit" type="submit" class="submit">Login</button>
+            </div>
+            <div class="idCard:disabled" id="results"></div>
+        </div>
+        <br/>
+        <div class="login">
+            <p class="login">Don't Have An Account?</p>
+    
+            <a href="register.html" class="login">Sign up</a>
+        </div>
+        <footer>
+            <div class="footertext">
+                <p class="footertext">Created by Darren Johnson</p>
+            </div>
+        </footer>
+    </body>
+</html>

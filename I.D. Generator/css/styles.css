@@ -264,6 +264,19 @@ footer {
     padding-top:6px;
 }
 
+.login {
+    text-align: center;
+    width:fit-content;
+    position: relative;
+    margin:auto;
+    padding-top:6px;
+}
+
+a {
+    color: rgb(136, 187, 255);
+    text-decoration: none;
+}
+
 /*
 .resultImg {
     display:block;
